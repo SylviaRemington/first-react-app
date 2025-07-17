@@ -36,6 +36,7 @@
 
 // From the setup of the lesson "Building Your First React App"
 // src/App.jsx
+
 const App = () => {
 
   return (

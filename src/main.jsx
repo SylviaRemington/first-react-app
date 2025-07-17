@@ -26,7 +26,10 @@ This is automatic - you set it once and forget it
 
 3. App.jsx
 This is where ALL your work happens
-You write 100% of your content here
+You write 100% of your content here.
+
+"The main HTML file (index.html) runs the main JavaScript file (main.jsx) first, 
+and then that JavaScript file puts your entire app on the screen."
 */
 
 
