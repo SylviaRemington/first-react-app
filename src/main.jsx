@@ -14,16 +14,6 @@ createRoot(document.getElementById('root')).render(
 
 
 
-
-
-
-
-
-
-
-
-
-
 /*
 REACT INFORMATION:
 When you start a React app, you need to tell React where on the webpage 
