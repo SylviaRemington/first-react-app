@@ -13,6 +13,21 @@ createRoot(document.getElementById('root')).render(
   </StrictMode>,
 )
 
+/*
+ADDTL INFO ABOUT REACT:
+1. index.html
+Has <div id="root"></div>
+This is just an empty placeholder
+You never touch this file after creating it
+
+2. main.jsx
+Does one job: Takes your App and connects it to the root div
+This is automatic - you set it once and forget it
+
+3. App.jsx
+This is where ALL your work happens
+You write 100% of your content here
+*/
 
 
 /*
