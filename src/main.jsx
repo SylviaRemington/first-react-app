@@ -6,6 +6,7 @@ import './index.css'
 import App from './App.jsx'
 
 // The root of our application is created here (and referenced in html - line 16)
+// createRoot is a function from React DOM (the library that connects React to the browser). It tells react "hey see this div, this is where my app should live. take control of it."
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
@@ -13,6 +14,48 @@ createRoot(document.getElementById('root')).render(
 )
 
 
+
+/*
+INFO ABOUT REACT AND THE DIFFERENT FILES:
+
+1. main.jsx – The "Starter File"
+What it does:
+
+Finds the empty <div id="root"> in your HTML (like finding a blank picture frame)
+Tells React: "Use this empty space to show my app"
+Points to App.jsx and says: "Put whatever is in this file into that empty space!"
+
+Do you change this file?
+No. You set it up once, then never touch it again.
+
+2. App.jsx – The "What Shows Up On Screen" File
+
+Its job: Controls everything you see on the webpage.
+
+What it actually does:
+It's a set of instructions that says what should appear on screen
+You write what you want to show - like text, buttons, pictures - inside this file
+Example of what you might write:
+
+--jsx--
+function App() {
+  return (
+    <div>
+      <h1>Look at my cool website!</h1>
+      <button>Press this button</button>
+    </div>
+  );
+}
+When you save changes to this file, your webpage updates immediately to show them
+
+Do you change this file?
+Yes, all the time! This is where you actually build your website.
+
+The Big Difference:
+File	What It Does	Do You Change It?
+main.jsx	Starts React, connects to webpage	Almost never
+App.jsx	Controls what appears on screen	Constantly
+*/
 
 /*
 REACT INFORMATION:
