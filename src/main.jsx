@@ -3,7 +3,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-// App.jsx is being imported in here cause using ESM modules
+// App.jsx is being imported in here cause using ESM modules // Importing app component here.
 import App from './App.jsx'
 
 // The root of our application is created here (and referenced in html - line 16)
@@ -14,6 +14,7 @@ createRoot(document.getElementById('root')).render(
   // Below are COMPONENTS that we render inside the app.
   <StrictMode>
     {/* This app component below is from the index.html page & has been imported in as per line 7 above. */}
+    {/* After importing app component above, this is where we are able to use it after the import. */}
     <App />
   </StrictMode>,
 )
