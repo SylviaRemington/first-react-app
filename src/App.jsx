@@ -45,10 +45,10 @@ const App = () => {
 
   return (
     // This is jsx below (even though it looks like html. We are returning html into the app to be rendered on the page.)
-    <div>
+    <>
       <h1>Hello, world!</h1>
       <h2>Hello, universe!</h2>
-    </div>
+    </>
   );
 };
 
