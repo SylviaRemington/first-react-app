@@ -11,6 +11,7 @@ import App from './App.jsx'
 // The App component below on line 13 is the App.jsx //The App.jsx then renders on the webpage.
 // So this is the function for creating a root and rendering inside of it the App.jsx.
 createRoot(document.getElementById('root')).render(
+  // Below are COMPONENTS that we render inside the app.
   <StrictMode>
     <App />
   </StrictMode>,
