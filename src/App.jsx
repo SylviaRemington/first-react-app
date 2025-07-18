@@ -55,7 +55,13 @@ const App = () => {
     <>
       <h1>JavaScript in JSX</h1>
       <p>{todo.text}</p>
-      {/* <hr />  */}
+
+      {/* <br /> */}
+      <hr /> 
+      {/* <br /> */}
+      <h2>Conditional Rendering</h2>
+      <p>{todo.done ? `Task Completed - ${todo.text}` : todo.text }</p>
+      {/* This above is showing that the todo is done with a ternary operator. Can't use if else statements in JSX. */}
     </>
   );
 };
