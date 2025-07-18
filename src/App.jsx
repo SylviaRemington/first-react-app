@@ -39,6 +39,7 @@
 
 // -------------------------------------------------------------------------------
 // THIS BELOW HOLDS THE MAJORITY OF OUR APP LOGIC IN APP.JSX
+// Most of what we are building will be an app or components loaded inside our app.
 // This below from lines 43-51 below are the app component.
 const App = () => {
 
