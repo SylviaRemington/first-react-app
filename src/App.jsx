@@ -43,12 +43,19 @@
 // This below from lines 43-51 below are the app component.
 const App = () => {
 
+  // Copying this object out of this lecture from video "JavaScript in JSX"
+  // Adding todo data onto our page // Until we use this todo, this will look like an error.
+  const todo = { text: 'A brand new task', done: true };
+
   return (
     // This is jsx below (even though it looks like html. We are returning html into the app to be rendered on the page.)
+    // Printing inside the p tag some todo text.
+    // Curly braces inside of html indicate, "Hey, I'm going to write some JS in here."
+    // Can write any JS expression we would like in between the curly braces.
     <>
-      <h1 className='greeting'>Hello, world!</h1>
-      <h2>Hello, universe!</h2>
-      <hr /> 
+      <h1>JavaScript in JSX</h1>
+      <p>{todo.text}</p>
+      {/* <hr />  */}
     </>
   );
 };
