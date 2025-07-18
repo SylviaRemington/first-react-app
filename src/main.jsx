@@ -8,7 +8,7 @@ import App from './App.jsx'
 
 // The root of our application is created here (and referenced in html - line 16)
 // createRoot is a function from React DOM (the library that connects React to the browser). It tells react "hey see this div, this is where my app should live. take control of it."
-// The App component below on line 13 is the App.jsx
+// The App component below on line 13 is the App.jsx //The App.jsx then renders on the webpage.
 // So this is the function for creating a root and rendering inside of it the App.jsx.
 createRoot(document.getElementById('root')).render(
   <StrictMode>
