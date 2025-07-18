@@ -3,6 +3,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+// App.jsx is being imported in here cause using ESM modules
 import App from './App.jsx'
 
 // The root of our application is created here (and referenced in html - line 16)
@@ -14,6 +15,18 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 ADDTL INFO ABOUT REACT:
