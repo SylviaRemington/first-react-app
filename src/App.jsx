@@ -37,6 +37,7 @@
 // From the setup of the lesson "Building Your First React App"
 // src/App.jsx
 
+// This below from lines 41-48 below are the app component.
 const App = () => {
 
   return (
