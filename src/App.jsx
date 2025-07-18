@@ -55,3 +55,23 @@ const App = () => {
 
 export default App;
 
+
+/*
+NOTES ON JSX FUNDAMENTALS:
+1. Functions in JSX must return only 1 thing/element; thus, can use React Fragment wrapped around the html.
+2. Tags must be explicitly closed like <hr />
+3. If you are using classes, you need to write className.
+
+ADDTL INFO ABOUT className:
+camelCasing element attributes
+As mentioned above, JSX turns into JavaScript. Any attributes written in JSX will become keys of JavaScript objects, which have the same limitations as any JavaScript variable name. For example, in JavaScript, class is a reserved word, so we have to account for that when composing JSX as well.
+
+In HTML, we could write:
+<div class="container"></div>
+
+But in JSX, we would use className - camelCased - instead:
+<div className="container"></div>
+JavaScript also forbids dashes in variable names, so you’ll notice that 
+any attributes that use a dash in HTML are written camelCased in JSX.
+
+*/
