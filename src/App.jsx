@@ -48,6 +48,7 @@ const App = () => {
     <>
       <h1>Hello, world!</h1>
       <h2>Hello, universe!</h2>
+      <hr /> 
     </>
   );
 };
