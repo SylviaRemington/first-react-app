@@ -13,6 +13,7 @@ import App from './App.jsx'
 createRoot(document.getElementById('root')).render(
   // Below are COMPONENTS that we render inside the app.
   <StrictMode>
+    {/* This app component below is from the index.html page & has been imported in as per line 7 above. */}
     <App />
   </StrictMode>,
 )
