@@ -37,7 +37,9 @@
 // From the setup of the lesson "Building Your First React App"
 // src/App.jsx
 
-// This below from lines 41-48 below are the app component.
+// -------------------------------------------------------------------------------
+// THIS BELOW HOLDS THE MAJORITY OF OUR APP LOGIC IN APP.JSX
+// This below from lines 43-51 below are the app component.
 const App = () => {
 
   return (
