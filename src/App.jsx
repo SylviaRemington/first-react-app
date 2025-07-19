@@ -76,8 +76,8 @@ const App = () => {
 
       <h2>Looping with JSX</h2>
       <ul>
-        {todos.map((todo) =>
-          <li>{todo.text}</li>
+        {todos.map((todo, index) =>
+          <li key={index}>{todo.text}</li>
         )}
       </ul>
     </>
