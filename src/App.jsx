@@ -58,6 +58,13 @@ const App = () => {
     {text: 'Master React', done: false},
   ];
 
+  // Can also do this instead of what is below and create a variable todoList and then below in the code, add what is here with the ul:
+  // const todoList = todos.map((todo, index) =>
+  //   <li key={index}>{todo.text}</li>
+  // );
+  // Addtl that I can do below if I create a todoList variable above here:
+  // <ul>{todoList}</ul>
+
   return (
     // This is jsx below (even though it looks like html. We are returning html into the app to be rendered on the page.)
     // Printing inside the p tag some todo text.
@@ -87,7 +94,6 @@ const App = () => {
           - As we are using example data without IDs, we will use the index of each element (provided to us as the second parameter in the map() callback function) to simulate a unique key for each list item. 
           - Index is not ideal; for example, index order may change or contents of array may change.
           */
-          
           <li key={index}>{todo.text}</li>
         )}
       </ul>
