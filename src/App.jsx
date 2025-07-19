@@ -77,6 +77,9 @@ const App = () => {
       <h2>Looping with JSX</h2>
       <ul>
         {todos.map((todo, index) =>
+        // ! Don't fully understand key & how it works in the html part of an array.
+        // ! Example of index in js and then putting it in the key? But lesson said for future will use most likely an Id for databases.
+        // ! Located in lesson 'first-react-app' in LOOPING WITH JSX ELEMENTS 7:35 SECONDS INTO VIDEO.
           <li key={index}>{todo.text}</li>
         )}
       </ul>
