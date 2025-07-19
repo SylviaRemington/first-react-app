@@ -83,6 +83,7 @@ const App = () => {
 
       <h2>Looping with JSX</h2>
       <ul>
+        {/* “Inside of the <ul>, we map over the todos array to build a collection of <li> elements that have the text for a todo inside of them”. */}
         {todos.map((todo, index) =>
         // ! Don't fully understand key & how it works in the html part of an array.
         // ! Example of index in js and then putting it in the key? But lesson said for future will use most likely an Id for databases.
@@ -104,6 +105,19 @@ const App = () => {
 export default App;
 
 // ! Also should I do this: Download the React DevTools for a better development experience: https://react.dev/link/react-devtools
+
+
+// FOR ABOVE FUNCTION THIS IS WHAT IT SAYS & THIS IS WHAT IT IS ALL TOGETHER:
+// “Inside of the <ul>, we map over the todos array to build a collection of 
+// <li> elements that have the text for a todo inside of them”.
+
+      // <h2>Looping with JSX</h2>
+      // <ul>
+      //   {todos.map((todo, index) =>
+      //     <li key={index}>{todo.text}</li>
+      //   )}
+      // </ul>
+
 
 // -------------------------------------------------------------------------------
 
