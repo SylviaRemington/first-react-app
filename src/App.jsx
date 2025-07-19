@@ -115,6 +115,7 @@ export default App;
 
 // ! Also should I do this: Download the React DevTools for a better development experience: https://react.dev/link/react-devtools
 
+// -------------------------------------------------------------------------------
 
 // FOR ABOVE FUNCTION THIS IS WHAT IT SAYS & THIS IS WHAT IT IS ALL TOGETHER:
 // “Inside of the <ul>, we map over the todos array to build a collection of 
@@ -130,6 +131,51 @@ export default App;
 
 // -------------------------------------------------------------------------------
 
+// BELOW IS THE FULL CODE FROM THIS LESSON ALL TOGETHER WITHOUT NOTES:
+/*
+const App = () => {
+  const todo = { text: 'A brand new task', done: true }
+  const todos = [
+    {text: 'Learn JavaScript', done: true},
+    {text: 'Learn JSX', done: false},
+    {text: 'Learn HTML', done: true},
+    {text: 'Learn CSS', done: true},
+    {text: 'Master React', done: false},
+  ];
+
+  return (
+    <>
+      <h1>JavaScript in JSX</h1>
+      <p>{todo.text}</p>
+
+      <h2>Conditional Rendering</h2>
+      <p>{todo.done ? `Task Completed - ${todo.text}` : todo.text }</p>
+
+      <h2>Looping with JSX</h2>
+      <ul>
+        {todos.map((todo, index) =>
+          <li key={index}>
+            {todo.text}
+          </li>
+        )}
+      </ul>
+
+      <h2>Looping and Conditional Rendering</h2>
+      <ul>
+        {todos.map((todo, index) => 
+          <li key={index}>
+            {todo.done ? `Task Completed - ${todo.text}` : todo.text}
+          </li>
+        )}
+      </ul>
+    </>
+  );
+}
+
+export default App
+*/
+
+// -------------------------------------------------------------------------------
 
 /*
 NOTES ON JSX FUNDAMENTALS:
