@@ -98,6 +98,15 @@ const App = () => {
           <li key={index}>{todo.text}</li>
         )}
       </ul>
+
+      <h2>Looping and Conditional Rendering</h2>
+      <ul>
+        {todos.map((todo, index) => 
+          <li key={index}>
+            {todo.done ? `Task Completed - ${todo.text}` : todo.text}
+          </li>
+        )}
+      </ul>
     </>
   );
 };
