@@ -77,7 +77,7 @@ const App = () => {
       <h2>Looping with JSX</h2>
       <ul>
         {todos.map((todo) =>
-          <li>Hello!</li>
+          <li>{todo.text}</li>
         )}
       </ul>
     </>
