@@ -89,6 +89,8 @@ const App = () => {
 
 export default App;
 
+// ! Also should I do this: Download the React DevTools for a better development experience: https://react.dev/link/react-devtools
+
 // -------------------------------------------------------------------------------
 
 
