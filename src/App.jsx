@@ -51,10 +51,10 @@ const App = () => {
 
   // add the todos array below the existing todo object.
   const todos = [
-    {text: 'Learn JavaScript', done: true},
-    {text: 'Learn JSX', done: false},
     {text: 'Learn HTML', done: true},
     {text: 'Learn CSS', done: true},
+    {text: 'Learn JavaScript', done: true},
+    {text: 'Learn JSX', done: false},
     {text: 'Master React', done: false},
   ];
 
