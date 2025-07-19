@@ -3,6 +3,8 @@
 // import viteLogo from '/vite.svg'
 // import './App.css'
 
+// import { Linter } from "eslint";
+
 // function App() {
 //   const [count, setCount] = useState(0)
 
@@ -47,6 +49,15 @@ const App = () => {
   // Adding todo data onto our page // Until we use this todo, this will look like an error.
   const todo = { text: 'A brand new task', done: true };
 
+  // add the todos array below the existing todo object.
+  const todos = [
+    {text: 'Learn JavaScript', done: true},
+    {text: 'Learn JSX', done: false},
+    {text: 'Learn HTML', done: true},
+    {text: 'Learn CSS', done: true},
+    {text: 'Master React', done: false},
+  ];
+
   return (
     // This is jsx below (even though it looks like html. We are returning html into the app to be rendered on the page.)
     // Printing inside the p tag some todo text.
@@ -62,11 +73,20 @@ const App = () => {
       <h2>Conditional Rendering</h2>
       <p>{todo.done ? `Task Completed - ${todo.text}` : todo.text }</p>
       {/* This above is showing that the todo is done with a ternary operator. Can't use if else statements in JSX. */}
+
+      <h2>Looping with JSX</h2>
+      <ul>
+        {todos.map((todo) =>
+          <li>Hello!</li>
+        )}
+      </ul>
     </>
   );
 };
 
 export default App;
+
+// -------------------------------------------------------------------------------
 
 
 /*
