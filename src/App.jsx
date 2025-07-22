@@ -1,3 +1,4 @@
+// Original code generated below by Vite when setting up React App / Not using it so commented it out. For future, just can delete it. I wanted to see what Vite generated, so I kept the code.
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
@@ -40,9 +41,13 @@
 // src/App.jsx
 
 // -------------------------------------------------------------------------------
+
+// APP.JSX CODE & PLETHORA OF NOTES BELOW FOR UNDERSTANDING/LEARNING JSX & LOGIC
+// ALSO, PLEASE NOTE: FURTHER BELOW I HAVE ONLY CODE OF THIS LESSON ALL IN ONE PLACE AT LINE 138
 // THIS BELOW HOLDS THE MAJORITY OF OUR APP LOGIC IN APP.JSX
 // Most of what we are building will be an app or components loaded inside our app.
 // This below from lines 43-51 below are the app component.
+
 const App = () => {
 
   // Copying this object out of this lecture from video "JavaScript in JSX"
